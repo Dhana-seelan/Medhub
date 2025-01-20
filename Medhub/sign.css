@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffcc66, #ff9933);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.signup-form {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.signup-form .highlight {
+    color: #ff9933;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.signup-form button {
+    background-color: #ff9933;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #ffcc66;
+}
+
+.signup-form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-form a {
+    color: #ff9933;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer nav {
+    margin-bottom: 10px;
+}
+
+footer nav a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
